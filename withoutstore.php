@@ -41,8 +41,8 @@ if ( isset($_POST["submit"]) ) {
              echo $_FILES["file"]["name"] . " already exists. ";
              }
              else {
-                    //Store file in directory "uploads"
-            
+             
+          //read file without storing them  
               
 echo "<html><body><center><table border='2'>";
 $f = fopen($_FILES["file"]["tmp_name"], "r");
